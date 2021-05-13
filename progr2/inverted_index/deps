@@ -1,0 +1,8 @@
+linked_list.o: src/linked_list.cpp include/linked_list.hpp \
+ include/linked_list_types.hpp
+linked_list_types.o: src/linked_list_types.cpp \
+ include/linked_list_types.hpp
+main.o: src/main.cpp include/words.hpp include/linked_list.hpp \
+ include/linked_list_types.hpp
+words.o: src/words.cpp include/words.hpp include/linked_list.hpp \
+ include/linked_list_types.hpp include/linked_list_types.hpp
